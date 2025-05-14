@@ -57,8 +57,8 @@ Complete history record functionality for easy viewing and management of generat
 ## Development & Deployment
 1. Clone the project
 ```bash
-git clone https://github.com/302ai/302_ai_drawing_prompt_word_expert
-cd 302_ai_drawing_prompt_word_expert
+git clone https://github.com/302ai/302_ai_image_creative_station
+cd 302_ai_image_creative_station
 ```
 
 2. Install dependencies

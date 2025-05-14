@@ -58,8 +58,8 @@ AI图像创意站的首页随机展示了多种创意玩法，点击即可体验
 ## 开发&部署
 1. 克隆项目
 ```bash
-git clone https://github.com/302ai/302_ai_drawing_prompt_word_expert
-cd 302_ai_drawing_prompt_word_expert
+git clone https://github.com/302ai/302_ai_image_creative_station
+cd 302_ai_image_creative_station
 ```
 
 2. 安装依赖

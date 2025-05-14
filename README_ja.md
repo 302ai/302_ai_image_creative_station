@@ -59,8 +59,8 @@ AI画像クリエイティブステーションのホームページでは、様
 ## 開発&デプロイ
 1. プロジェクトのクローン
 ```bash
-git clone https://github.com/302ai/302_ai_drawing_prompt_word_expert
-cd 302_ai_drawing_prompt_word_expert
+git clone https://github.com/302ai/302_ai_image_creative_station
+cd 302_ai_image_creative_station
 ```
 
 2. 依存関係のインストール
