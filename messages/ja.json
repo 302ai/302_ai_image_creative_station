@@ -1,0 +1,883 @@
+{
+  "auth": {
+    "description": "作成者は認証を有効にしています。以下の共有コードを入力してください",
+    "form": {
+      "confirm_button": "確認",
+      "confirm_button_loading": "検証中",
+      "input_code": "共有コードを入力してください",
+      "remember_code": "共有コードを記憶する"
+    },
+    "title": "コードを共有する必要がある"
+  },
+  "history": {
+    "loading": "読み込み中...",
+    "noHistoryTitle": "履歴がありません",
+    "noHistoryMessage": "生成した画像がここに表示されます"
+  },
+  "home": {
+    "header": {
+      "title": "AI画像創意サイト",
+      "description": "画像の説明を入力すると、一言でクリエイティブを生成できます",
+      "more": "その他の機能",
+      "placeholder": "生成したい内容を入力してください 例：魔法の帽子をかぶったペンギン",
+      "history": "生成履歴",
+      "refresh": "変えてみてください"
+    }
+  },
+  "gallery": {
+    "description": "生成した画像がすべて表示されます。最新の画像が最初に表示されます",
+    "emptyMessage": "素敵な画像を生成してみましょう！",
+    "promptTitle": "プロンプト",
+    "title": "生成履歴"
+  },
+  "file": {
+    "drop_file": "ここにファイルをドラッグ&ドロップ",
+    "or": "または",
+    "upload_file": "ローカル画像をアップロード",
+    "support": "jpg、png形式をサポート",
+    "uploading": "アップロード中"
+  },
+  "global": {
+    "error": {
+      "code_invalid": "共有コードが無効です。詳細は302.AIをご覧ください",
+      "copy_failed": "コピーに失敗しました",
+      "network_error": "ネットワークサービスエラー。ネットワーク状態を確認するか、後ほど再試行してください",
+      "not_found": "ページが存在しません",
+      "tool_deleted": "このツールは削除されました。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "tool_disabled": "このツールは無効になっています。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "unknown_error": "不明なエラーが発生しました。サポートにお問い合わせください",
+      "max_generation": "同時に生成できる画像は最大4枚までです",
+      "empty_image": "画像をアップロードしてください",
+      "generate_failed": "生成に失敗しました"
+    },
+    "example": "参考効果",
+    "generate_image": "画像生成",
+    "footer": {
+      "copyright_content": "<logo></logo>による提供",
+      "copyright_leading": "AI生成のコンテンツであり、参考用です"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "言語を切り替える"
+      },
+      "theme_switcher": {
+        "dark": "ダークモード",
+        "light": "ライトモード",
+        "system": "システムデフォルト",
+        "toggle_theme": "テーマを切り替える"
+      },
+      "tool_info": {
+        "description": "現在のツールに関する情報",
+        "title": "について",
+        "trigger": {
+          "label": "ツール情報ポップアップを開く/閉じる"
+        }
+      }
+    }
+  },
+  "styles": {
+    "anime": "アニメ",
+    "watercolor": "水彩",
+    "low_poly": "ローポリ",
+    "pixel_art": "ピクセルアート",
+    "steampunk": "スチームパンク",
+    "cyberpunk": "サイバーパンク",
+    "minimalist": "ミニマリスト",
+    "retro": "レトロ",
+    "graffiti": "グラフィティ",
+    "realistic": "リアリスティック",
+    "impressionism": "印象派",
+    "surrealism": "シュルレアリスム",
+    "abstract": "抽象アート",
+    "classical": "クラシカル",
+    "pop_art": "ポップアート",
+    "ghibli": "ジブリ",
+    "sci_fi": "SF",
+    "illustration": "イラスト",
+    "ink_painting": "水墨画",
+    "sketch": "スケッチ",
+    "black_and_white": "モノクロ",
+    "crayon": "クレヨン",
+    "disney": "ディズニースタイル",
+    "3d_animation": "3Dアニメーション",
+    "dreamy": "ドリーミー"
+  },
+  "basic": {
+    "text2img": "テキストから画像",
+    "styleEdit": "スタイル編集",
+    "input": {
+      "placeholder": "画像の説明を入力してください...",
+      "select": "言語を選択",
+      "style_description": "希望するスタイルの説明を入力してください..."
+    },
+    "language": {
+      "en": "英語",
+      "zh": "中国語",
+      "ja": "日本語"
+    },
+    "optimize": "プロンプトを最適化",
+    "text": "テキスト説明",
+    "image": "画像参考",
+    "style_example": "スタイル例",
+    "warning": {
+      "actionImage": "操作画像をアップロードしてください",
+      "referenceImage": "参考画像をアップロードしてください"
+    },
+    "default_prompt": "魔法の帽子をかぶったペンギン"
+  },
+  "english_cards": {
+    "input": {
+      "placeholder": "英単語を入力してください 例：apple, tree, bear, banana"
+    },
+    "warning": {
+      "placeholder": "英単語を入力してください"
+    }
+  },
+  "generation-form": {
+    "image_warning": "画像をアップロードしてください",
+    "text_warning": "内容を入力してください",
+    "text_input": "テキスト入力",
+    "upload_input": "画像アップロード"
+  },
+  "visual-recipe": {
+    "input": {
+      "placeholder": "レシピの説明を入力してください...",
+      "dish_name": "料理名",
+      "ingredients": "材料",
+      "cooking_steps": "調理手順",
+      "style": "レシピスタイル",
+      "ingredients_placeholder": "例：レディフィンガー200g、マスカルポーネ250g、卵3個、砂糖100g、エスプレッソ200ml、コーヒーリキュール30ml、無糖ココアパウダー",
+      "cooking_steps_placeholder": "例：卵黄と砂糖を滑らかになるまで混ぜ、マスカルポーネチーズを加えてよく混ぜます。レディフィンガーをコーヒーに浸し、容器の底に並べ、チーズミックスを塗ります。最後にティラミスにココアパウダーを振りかけます。",
+      "warning": {
+        "dish_name": "料理名を入力してください",
+        "ingredients": "材料を入力してください",
+        "cooking_steps": "調理手順を入力してください"
+      }
+    },
+    "select": {
+      "handdrawn": "手書き",
+      "digital": "リアル"
+    }
+  },
+  "physical_destruction": {
+    "warning": {
+      "character": "キャラクターを入力してください",
+      "theme": "カードのテーマを入力してください"
+    },
+    "placeholder": {
+      "character": "例：アインシュタイン",
+      "theme": "例：相対性理論"
+    },
+    "label": {
+      "character": "キャラクター",
+      "theme": "カードテーマ"
+    }
+  },
+  "product-model": {
+    "warning": {
+      "image": "商品画像をアップロードしてください"
+    },
+    "label": {
+      "gender": "性別",
+      "ethnicity": "人種",
+      "upload_image": "商品画像をアップロード",
+      "model_ethnicity": "モデルの人種",
+      "model_gender": "モデルの性別",
+      "male": "男性",
+      "female": "女性",
+      "asian": "アジア人",
+      "white": "白人",
+      "black": "アフリカ人"
+    }
+  },
+  "sculpture": {
+    "placeholder": "例：ロナウド",
+    "defaultValue": "ロナウド",
+    "label": {
+      "description": "画像をアップロードしてください。AIが大理石の彫刻スタイルに変換します"
+    }
+  },
+  "relief": {
+    "placeholder": "例：チャイナドレスを着て簪を付けた女性",
+    "defaultValue": "チャイナドレスを着て簪を付けた女性",
+    "label": {
+      "description": "画像をアップロードしてください。AIが立体浮雕スタイルに変換します"
+    }
+  },
+  "3d-head-pose": {
+    "placeholder": "例：カウボーイハットをかぶった西部カウボーイスタイルの少年",
+    "defaultValue": "カウボーイハットをかぶった西部カウボーイスタイルの少年",
+    "label": {
+      "description": "画像をアップロードしてください。AIが8種類の3D頭部姿勢スタイルに変換します"
+    }
+  },
+  "clay-model": {
+    "placeholder": "例：ゾウ",
+    "defaultValue": "ゾウ",
+    "label": {
+      "description": "画像をアップロードしてください。AIが粘土模型スタイルに変換します"
+    }
+  },
+  "crystal-ball": {
+    "placeholder": "例：魔法の帽子をかぶったペンギン",
+    "defaultValue": "魔法の帽子をかぶったペンギン",
+    "label": {
+      "description": "画像をアップロードしてください。AIが水晶球スタイルに変換します"
+    }
+  },
+  "passport-stamp": {
+    "warning": {
+      "country": "国を入力してください",
+      "city": "都市を入力してください",
+      "landmarks": "ランドマークを入力してください",
+      "date": "日付を入力してください"
+    },
+    "label": {
+      "country": "国",
+      "city": "都市",
+      "landmarks": "ランドマーク",
+      "date": "日付"
+    },
+    "placeholder": {
+      "country": "例：中国",
+      "city": "例：広州",
+      "landmarks": "例：広州タワー",
+      "date": "例：2025-01-01"
+    }
+  },
+  "low-poly": {
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "placeholder": {
+      "text": "生成したい内容を入力してください 例：カンガルー"
+    },
+    "defaultValue": "カンガルー"
+  },
+  "isometric-scene": {
+    "warning": {
+      "scene": "シーンの説明を入力してください"
+    },
+    "placeholder": {
+      "scene": "例：西遊記"
+    },
+    "defaultValue": "西遊記"
+  },
+  "city-isometric-view": {
+    "warning": {
+      "city": "都市名を入力してください",
+      "weather": "天気を選択してください"
+    },
+    "placeholder": {
+      "city": "例：広州",
+      "weather": "例：晴れ",
+      "weatherEffect": "例：太陽"
+    },
+    "label": {
+      "city": "都市",
+      "weather": "天気",
+      "weatherEffect": "天気効果"
+    },
+    "weather": {
+      "sunny": "晴れ",
+      "cloudy": "曇り",
+      "partly_cloudy": "晴れ時々曇り",
+      "rainy": "雨",
+      "snowy": "雪",
+      "foggy": "霧",
+      "thunderstorm": "雷雨"
+    },
+    "weatherEffect": {
+      "sun": "太陽",
+      "rain": "雨",
+      "snow": "雪",
+      "fog": "霧",
+      "hail": "雹",
+      "wind": "風",
+      "lightning": "雷",
+      "cloud": "雲"
+    }
+  },
+  "font-typography": {
+    "warning": {
+      "image": "商品画像をアップロードしてください",
+      "text": "テーマワードを入力してください"
+    },
+    "label": {
+      "theme": "テーマワード"
+    },
+    "placeholder": {
+      "theme": "例：幸せ"
+    }
+  },
+  "ancient-book": {
+    "warning": {
+      "complete": "古書の情報を完全に入力してください"
+    },
+    "label": {
+      "leftPage": "左ページ",
+      "rightPage": "右ページ"
+    },
+    "placeholder": {
+      "scene": "ミニチュアシーンの説明を入力してください 例：緑の蔦に囲まれた小さな家、草むらに野の花が咲き、近くにトマトとレタスを育てている菜園があります。家の前に木製の椅子と丸テーブルが置かれ、テーブルには湯気の立つティーポットがあります。白猫が日差しの中でまどろんでおり、家の後ろには曲がりくねった小川が流れています。"
+    },
+    "type": {
+      "ancientBook": "古書",
+      "miniatureScene": "ミニチュアシーン"
+    },
+    "defaultValue": "緑の蔦に囲まれた小さな家、草むらに野の花が咲き、近くにトマトとレタスを育てている菜園があります。家の前に木製の椅子と丸テーブルが置かれ、テーブルには湯気の立つティーポットがあります。白猫が日差しの中でまどろんでおり、家の後ろには曲がりくねった小川が流れています。"
+  },
+  "pill-capsule": {
+    "warning": {
+      "food": "アイテム名を入力してください"
+    },
+    "placeholder": {
+      "food": "カプセルに入れたいものを入力してください 例：桃、スイカ、パイナップル、鍋"
+    },
+    "defaultValue": "桃、スイカ、パイナップル、鍋"
+  },
+  "keycap": {
+    "warning": {
+      "mainKey": "メインキーを入力してください",
+      "surroundingKeys": "周囲のキーを入力してください",
+      "internalScene": "内部シーンを入力してください",
+      "sceneDescription": "シーンの説明を入力してください"
+    },
+    "label": {
+      "mainKey": "メインキー",
+      "surroundingKeys": "周囲のキー",
+      "internalScene": "内部シーン",
+      "sceneDescription": "シーン説明",
+      "colorTone": "色調"
+    },
+    "placeholder": {
+      "mainKey": "例：Esc",
+      "surroundingKeys": "例：F1、Q、Shift",
+      "internalScene": {
+        "warm": "例：農場",
+        "cold": "例：リビングルーム"
+      },
+      "sceneDescription": {
+        "warm": "例：キーキャップの中には、様々な野菜やハーブが植えられた整然と並んだ植木箱が見えます。朝の日差しが若葉に降り注ぎ、露が太陽に輝いています。小さな灌漑システムが静かに作動し、各植物に必要な水を供給しています。農場の一角には、堆肥箱が静かに土壌に栄養を提供しています。",
+        "cold": "例：中には赤く光るNetflix画面、ふかふかの赤いソファ、ポップコーンボウルと毛布があります。小さな人形が足を上げて横になり、中身を見ています。赤い「N」のシンボルが背面からムードライティングのように輝き、外側のF1、Shift、Qボタンにはクールなテクノロジーブルーの反射があります。"
+      }
+    },
+    "colorTone": {
+      "warm": "暖色調",
+      "cold": "寒色調"
+    },
+    "defaultValue": {
+      "warm": {
+        "mainKey": "Esc",
+        "surroundingKeys": "F1、Q、Shift",
+        "internalScene": "農場",
+        "sceneDescription": "キーキャップの中には、様々な野菜やハーブが植えられた整然と並んだ植木箱が見えます。朝の日差しが若葉に降り注ぎ、露が太陽に輝いています。小さな灌漑システムが静かに作動し、各植物に必要な水を供給しています。農場の一角には、堆肥箱が静かに土壌に栄養を提供しています。"
+      },
+      "cold": {
+        "mainKey": "Esc",
+        "surroundingKeys": "F1、Q、Shift",
+        "internalScene": "リビングルーム",
+        "sceneDescription": "中には赤く光るNetflix画面、ふかふかの赤いソファ、ポップコーンボウルと毛布があります。小さな人形が足を上げて横になり、中身を見ています。赤い「N」のシンボルが背面からムードライティングのように輝き、外側のF1、Shift、Qボタンにはクールなテクノロジーブルーの反射があります。"
+      }
+    }
+  },
+  "mini-3d-building": {
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "label": {
+      "text": "建物を入力"
+    },
+    "placeholder": {
+      "text": "例：マクドナルド"
+    },
+    "defaultValue": "マクドナルド"
+  },
+  "change-age": {
+    "warning": {
+      "age": "年齢を入力してください",
+      "image": "画像をアップロードしてください"
+    },
+    "label": {
+      "age": "年齢"
+    },
+    "placeholder": {
+      "age": "例：18"
+    }
+  },
+  "doll": {
+    "warning": {
+      "title": "タイトルを入力してください",
+      "subtitle": "サブタイトルを入力してください",
+      "accessories": "アクセサリーを入力してください",
+      "image": "画像をアップロードしてください"
+    },
+    "label": {
+      "title": "タイトル",
+      "subtitle": "サブタイトル",
+      "accessories": "アクセサリーを追加"
+    },
+    "placeholder": {
+      "title": "例：大金を稼ぎたい",
+      "subtitle": "例：幸運が来る",
+      "accessories": "例：メガネ、パソコン、携帯電話"
+    }
+  },
+  "3d-model": {
+    "warning": {
+      "model": "モデルの主体を入力してください",
+      "bottomText": "下部テキストを入力してください",
+      "detailDescription": "詳細説明を入力してください"
+    },
+    "label": {
+      "model": "モデル主体",
+      "bottomText": "下部テキスト",
+      "detailDescription": "詳細説明"
+    },
+    "placeholder": {
+      "model": "例：音楽スタジオ",
+      "bottomText": "例：Music",
+      "detailDescription": "例：壁にはレコードやクラシックバンドのポスターが飾られた、クラシックなインディペンデント音楽スタジオ。中央にはビンテージのドラムセットといくつかのエレキギターが置かれています。カーペットの上のミキシングコンソールとビンテージレコーダーがスポットライトで照らされています。破れたジーンズとバンドTシャツを着た若いミュージシャンがマイクの前に立ち、目を閉じて歌いながら、楽譜と鉛筆に囲まれています。"
+    },
+    "defaultValue": {
+      "model": "音楽スタジオ",
+      "bottomText": "Music",
+      "detailDescription": "壁にはレコードやクラシックバンドのポスターが飾られた、クラシックなインディペンデント音楽スタジオ。中央にはビンテージのドラムセットといくつかのエレキギターが置かれています。カーペットの上のミキシングコンソールとビンテージレコーダーがスポットライトで照らされています。破れたジーンズとバンドTシャツを着た若いミュージシャンがマイクの前に立ち、目を閉じて歌いながら、楽譜と鉛筆に囲まれています。"
+    }
+  },
+  "tweet": {
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "label": {
+      "text": "投稿内容"
+    },
+    "placeholder": {
+      "text": "例：宇宙船が地球を侵略"
+    },
+    "defaultValue": "宇宙船が地球を侵略"
+  },
+  "double-exposure": {
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "label": {
+      "text": "キャラクター"
+    },
+    "placeholder": {
+      "text": "実在するキャラクターを入力してください 例：卓球選手の孫穎莎"
+    },
+    "defaultValue": "卓球選手の孫穎莎"
+  },
+  "hand-drawn-info-card": {
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "label": {
+      "text": "カード内容"
+    },
+    "placeholder": {
+      "text": "カードの内容を入力してください 例：「認知」が上限を決定 「人脈」が機会を決定 \n- 「認知」以上の金は稼げない、- 「人脈」以外の機会には出会えない。"
+    },
+    "defaultValue": "「認知」が上限を決定 「人脈」が機会を決定 \n- 「認知」以上の金は稼げない、- 「人脈」以外の機会には出会えない。"
+  },
+  "lego-collection": {
+    "warning": {
+      "image": "キャラクター画像をアップロードしてください",
+      "text": "内容を入力してください"
+    },
+    "label": {
+      "description": "キャラクター画像をアップロードしてください。AIがそのキャラクターに合う動物を選び、LEGOコレクション形式で生成します"
+    }
+  },
+  "micro-world": {
+    "warning": {
+      "externalWorld": "外部世界を入力してください",
+      "internalWorld": "内部世界を入力してください"
+    },
+    "label": {
+      "externalWorld": "外部世界",
+      "internalWorld": "内部世界"
+    },
+    "placeholder": {
+      "externalWorld": "例：スイカ",
+      "internalWorld": "例：ビーチと海"
+    },
+    "defaultValue": {
+      "externalWorld": "スイカ",
+      "internalWorld": "ビーチと海"
+    }
+  },
+  "cute-enamelled-pin": {
+    "warning": {
+      "image": "キャラクター画像をアップロードしてください"
+    },
+    "label": {
+      "description": "キャラクター画像をアップロードしてください。AIがそれをかわいいエナメルピンスタイルに変換します"
+    }
+  },
+  "q-version-3d-character": {
+    "warning": {
+      "image": "キャラクター画像をアップロードしてください"
+    },
+    "label": {
+      "description": "キャラクター画像をアップロードしてください。AIがそれをQ版3Dキャラクタースタイルに変換します"
+    }
+  },
+  "ghibli-style": {
+    "warning": {
+      "image": "キャラクター画像をアップロードしてください"
+    },
+    "label": {
+      "description": "キャラクター画像をアップロードしてください。AIがそれをジブリアニメーションスタイルに変換します"
+    }
+  },
+  "sticker-design": {
+    "warning": {
+      "text": "内容を入力してください",
+      "image": "画像をアップロードしてください"
+    },
+    "label": {
+      "text_input": "テキスト入力",
+      "upload_input": "画像アップロード",
+      "style": "スタイルを選択"
+    },
+    "placeholder": {
+      "text": "例：かわいい子犬"
+    },
+    "style": {
+      "illustration": "フラットイラスト",
+      "anime": "アニメスタイル"
+    },
+    "defaultValue": {
+      "text": "かわいい子犬"
+    }
+  },
+  "emoji-generator": {
+    "warning": {
+      "material": "素材を入力してください",
+      "custom_text": "カスタムテキストを入力してください"
+    },
+    "label": {
+      "edge_text": "縁取りテキスト",
+      "material_style": "素材スタイル"
+    },
+    "placeholder": {
+      "emoji": "絵文字を入力するか右から選択してください。1つの絵文字の方が効果的です",
+      "material_style": "素材スタイルを選択",
+      "custom_text": "生成したい絵文字の素材スタイルを入力してください",
+      "vacuumPacked": "例：302.AI"
+    },
+    "style": {
+      "paperCraft": "ペーパークラフト",
+      "fluffy3D": "ふわふわ3D",
+      "inflatableToy": "膨らむおもちゃ",
+      "heliumBalloon": "ヘリウム風船",
+      "cork3D": "コルク3D",
+      "microFiberPillow": "マイクロファイバー枕",
+      "8bitPixel": "8ビットピクセル",
+      "tuftedCarpet": "タフテッドカーペット",
+      "frostedGlass": "すりガラス",
+      "iceCream": "アイスクリーム",
+      "silk": "シルク",
+      "metal": "メタル",
+      "marble": "大理石",
+      "woodcut": "木版画",
+      "velvet": "ベルベット",
+      "leather": "レザー",
+      "holographic3D": "3Dホログラム",
+      "wickerWeave": "籐編み",
+      "fabricTextile": "ファブリック",
+      "buildingBlocks": "ブロック",
+      "iceSculpture": "氷彫刻",
+      "paperCutWindow": "切り紙窓",
+      "pineCone": "松ぼっくり",
+      "vacuumPacked": "真空パック",
+      "custom": "カスタム"
+    },
+    "defaultValue": {
+      "text": "😀",
+      "vacuumPacked": "302.AI",
+      "custom": "切り紙窓"
+    }
+  },
+  "handwriting-note": {
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "label": {
+      "type": "タイプ",
+      "scenicName": "観光地名",
+      "destination": "旅行先",
+      "novelName": "小説名",
+      "noteTheme": "ノートテーマ",
+      "annotationLayout": "注釈レイアウト",
+      "language": "言語"
+    },
+    "select": {
+      "scenicGuide": "観光ガイド",
+      "novelNotes": "小説ノート",
+      "travelNotes": "旅行手帳イラスト",
+      "handwritingNote": "手書きノート",
+      "horizontal": "水平",
+      "vertical": "垂直",
+      "chinese": "中国語",
+      "english": "英語",
+      "japanese": "日本語"
+    },
+    "placeholder": {
+      "scenicNamePlaceholder": "例：白雲山",
+      "destinationPlaceholder": "例：北京",
+      "novelNamePlaceholder": "例：高慢と偏見",
+      "noteThemePlaceholder": "例：人は何のために生きるのか"
+    },
+    "defaultValue": {
+      "scenicGuide": "白雲山",
+      "novelNotes": "高慢と偏見",
+      "travelNotes": "北京",
+      "handwritingNote": "人は何のために生きるのか"
+    }
+  },
+  "super-realistic-figure": {
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "label": {
+      "text": "内容を入力してください"
+    },
+    "placeholder": {
+      "text": "フィギュアのテーマやシーン説明を入力してください 例：武松が虎と戦う"
+    },
+    "defaultValue": {
+      "text": "武松が虎と戦う"
+    }
+  },
+  "cloud-art-form": {
+    "label": {
+      "shape": "雲の形",
+      "location": "場所"
+    },
+    "placeholder": {
+      "shape": "主体やオブジェクトを入力してください 例：ウサギ",
+      "location": "例：黄鶴楼"
+    },
+    "warning": {
+      "shape": "形を入力してください",
+      "location": "場所を入力してください"
+    },
+    "defaultValue": {
+      "shape": "ウサギ",
+      "location": "黄鶴楼"
+    }
+  },
+  "brand-pill-form": {
+    "placeholder": {
+      "text": "ブランド名を入力してください 例：スターバックス"
+    },
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "defaultValue": {
+      "text": "スターバックス"
+    }
+  },
+  "letter-box-form": {
+    "label": {
+      "character": "文字",
+      "material": "素材",
+      "characterColor": "文字の色",
+      "backgroundColor": "背景ボックスの色"
+    },
+    "placeholder": {
+      "character": "文字や数字をカンマで区切って入力してください 例：3,0,2,A,I",
+      "material": "例：フォーム",
+      "characterColor": "例：#000000",
+      "backgroundColor": "例：#000000"
+    },
+    "warning": {
+      "character": "文字を入力してください",
+      "material": "素材を入力してください",
+      "characterColor": "文字の色を入力してください",
+      "backgroundColor": "背景ボックスの色を入力してください"
+    },
+    "defaultValue": {
+      "character": "3,0,2,A,I",
+      "material": "フォーム",
+      "characterColor": "#000000",
+      "backgroundColor": "#000000"
+    }
+  },
+  "original-product-image": {
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "placeholder": {
+      "text": "商品名または説明を入力してください 例：空気清浄機"
+    },
+    "defaultValue": {
+      "text": "空気清浄機"
+    }
+  },
+  "plastic-trash-bag": {
+    "label": {
+      "bagColor": "袋の色",
+      "logoColor": "ロゴの色",
+      "centerLogo": "中央のロゴ"
+    },
+    "placeholder": {
+      "bagColor": "例：#000000",
+      "logoColor": "例：#000000",
+      "centerLogo": "例：マクドナルドのロゴ"
+    },
+    "warning": {
+      "bagColor": "袋の色を入力してください",
+      "logoColor": "ロゴの色を入力してください",
+      "centerLogo": "中央のロゴを入力してください"
+    },
+    "defaultValue": {
+      "bagColor": "#000000",
+      "logoColor": "#000000",
+      "centerLogo": "マクドナルドのロゴ"
+    }
+  },
+  "mini-scroll": {
+    "label": {
+      "text": "テーマ"
+    },
+    "placeholder": {
+      "text": "テーマやシーン説明を入力してください 例：清明上河図"
+    },
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "defaultValue": {
+      "text": "清明上河図"
+    }
+  },
+  "shadow-art": {
+    "label": {
+      "text": "シルエットの主体"
+    },
+    "placeholder": {
+      "text": "主体の説明を入力してください 例：バスケットボールをダンクするアスリート"
+    },
+    "warning": {
+      "text": "内容を入力してください"
+    },
+    "defaultValue": {
+      "text": "バスケットボールをダンクするアスリート"
+    }
+  },
+  "cover-poster": {
+    "select": {
+      "colorSvg": "カラーベクターアートポスター",
+      "magzineCover": "ファッション雑誌カバー",
+      "vintageCover": "ビンテージ宣伝ポスター"
+    },
+    "label": {
+      "type": "タイプ",
+      "svg-cover-title": "ポスタータイトル",
+      "svg-cover-subtitle": "ポスターサブタイトル",
+      "svg-cover-content": "ポスター内容",
+      "magazine-cover-title": "雑誌タイトル",
+      "magazine-cover-content": "雑誌内容",
+      "vintage-cover-main": "ポスターテーマ",
+      "vintage-cover-center": "中央の主体",
+      "vintage-cover-text-annotation": "テキスト注釈",
+      "vintage-cover-left-bottom": "ポスター左下",
+      "vintage-cover-right-bottom": "ポスター右下",
+      "vintage-cover-language": "ポスターテキストの言語",
+      "zh": "中国語",
+      "en": "英語",
+      "ja": "日本語"
+    },
+    "placeholder": {
+      "svg-cover-title": "例：広州",
+      "svg-cover-subtitle": "例：中国",
+      "svg-cover-content": "例：中国広州",
+      "magazine-cover-title": "例：FASHION DESIGN",
+      "magazine-cover-content": "例：美しい女性が伝統的な濃紺のチャイナドレスを着て、髪に簪をしています。彼女は片手に大きな蝶を持っています。",
+      "vintage-cover-main": "例：GPTの最新AI描画サービスの広告",
+      "vintage-cover-center": "人物または物を入力できます 例：美しい若い女性、上品なビンテージスタイルで描かれ、微笑んでおり、エレガントで親しみやすい",
+      "vintage-cover-text-annotation": "各行をダブルクォーテーションで囲み、カンマで区切ってください 例：「AIダイレクト出力、編集不要」、「驚きの価格9.9円/枚」",
+      "vintage-cover-left-bottom": "アクションまたはロゴを入力",
+      "vintage-cover-right-bottom": "アクションまたはロゴを入力"
+    },
+    "warning": {
+      "title": "タイトルを入力してください",
+      "subtitle": "サブタイトルを入力してください",
+      "content": "内容を入力してください",
+      "magazine-content": "雑誌内容を入力してください",
+      "magazine-title": "雑誌タイトルを入力してください",
+      "vintage-main": "ポスターテーマを入力してください",
+      "vintage-center": "中央の主体を入力してください",
+      "vintage-text-annotation": "テキスト注釈を入力してください",
+      "vintage-left-bottom": "ポスター左下を入力してください",
+      "vintage-right-bottom": "ポスター右下を入力してください"
+    },
+    "defaultValue": {
+      "colorSvg": {
+        "title": "広州",
+        "subtitle": "中国",
+        "content": "中国広州"
+      },
+      "magzineCover": {
+        "title": "FASHION DESIGN",
+        "content": "美しい女性が伝統的な濃紺のチャイナドレスを着て、髪に簪をしています。彼女は片手に大きな蝶を持っています。"
+      },
+      "vintageCover": {
+        "title": "ビンテージ宣伝ポスター",
+        "main": "GPTの最新AI描画サービスの広告",
+        "center": "美しい若い女性、上品なビンテージスタイルで描かれ、微笑んでおり、エレガントで親しみやすい",
+        "textAnnotation": "AIダイレクト出力、編集不要,驚きの価格9.9円/枚",
+        "leftBottom": "星印",
+        "rightBottom": "星印"
+      }
+    }
+  },
+  "sidebar": {
+    "home": "ホーム",
+    "realistic_photo": "基本画像生成",
+    "english_cards": "英単語カード",
+    "visual_recipe": "ビジュアルレシピ",
+    "physical_destruction": "物理的破壊エフェクトカード",
+    "product_model": "製品モデル画像",
+    "sculpture": "彫刻",
+    "relief": "3Dレリーフ",
+    "3d_head_pose": "3Dヘッドポーズ",
+    "clay_model": "粘土モデル",
+    "crystal_ball": "クリスタルボール",
+    "passport_stamp": "パスポートスタンプ",
+    "low_poly": "ローポリ",
+    "isometric_scene": "アイソメトリックミニチュアシーン",
+    "city_isometric_view": "都市アイソメトリックビュー",
+    "font_typography": "フォントタイポグラフィ",
+    "ancient_book": "古書",
+    "pill_capsule": "ピルカプセル",
+    "keycap": "テーマキーキャップ",
+    "mini_3d_building": "ミニ3D建物",
+    "change_age": "年齢変更",
+    "doll": "アクションフィギュア",
+    "3d_model": "3Dモデル",
+    "tweet": "架空のツイート",
+    "double_exposure": "人物ダブルエクスポージャー",
+    "hand_drawn_info_card": "手描き情報カード",
+    "lego_collection": "レゴコレクション",
+    "micro_world": "ミクロの世界",
+    "cute_enamelled_pin": "可愛いエナメルピン",
+    "q_version_3d_character": "Qバージョン3Dキャラクター",
+    "ghibli_style": "ジブリスタイル",
+    "sticker_design": "ステッカーデザイン",
+    "emoji_generator": "Emoji",
+    "handwriting_note": "手書きノート",
+    "super_realistic_figure": "超リアルなフィギュア",
+    "cloud_art": "クラウドアート",
+    "brand_pill": "ブランドピル",
+    "letter_box": "レターボックス",
+    "original_product_image": "オリジナル製品画像",
+    "plastic_trash_bag": "プラスチックゴミ袋",
+    "mini_scroll": "3Dミニスクロール",
+    "shadow_art": "シルエットアート",
+    "cover_poster": "カバーポスター"
+  }
+}
