@@ -2,13 +2,13 @@
 
 <p align="center">AI Image Creative Station uses GPT-Image-1 to generate images, offering over 70 creative modes for users to experience.</p>
 
-<p align="center"><a href="https://302.ai/en/tools/gptimg/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/68" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![](docs/302_AI_Image_Creative_Station_en.png)
 
-This is the open-source version of the [AI Image Creative Station](https://302.ai/en/tools/gptimg/) from [302.AI](https://302.ai/en/). You can directly log in to 302.AI to use the online version with zero code and zero background, or modify and deploy it yourself according to your requirements.
+This is the open-source version of the [AI Image Creative Station](https://302.ai/product/detail/68) from [302.AI](https://302.ai/en/). You can directly log in to 302.AI to use the online version with zero code and zero background, or modify and deploy it yourself according to your requirements.
 
 ## Interface Preview
 The homepage of AI Image Creative Station randomly displays various creative modes that you can experience with just a click. More interesting modes will be continuously added!      
